@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    background: #1C1C1C;
+    font-family: 'Inter';
+}
+
+.main-container {
+    width: 550px;
+    height: 550px;
+    margin: 65px auto;
+    padding: 50px;
+    
+    /* border: 1px dotted forestgreen; */
+    border-radius: 5px;
+    background: #1F2937;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 2.75rem;
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 1.5rem;
+}
+
+.heading {
+    /* border: 1px dotted forestgreen; */
+    padding: 35px 0px;
+    border-bottom: 5px solid #273549;
+}
+
+#generate-btn {
+    background: #10B981;
+    border: 0px;
+    border-radius: 6px;
+    
+    margin-top: 35px;
+    margin-bottom: 15px;
+    
+    color: whitesmoke;
+    
+    padding: 10px 15px;
+    font-size: 1.25rem;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px dotted forestgreen; */
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+#heading-emphasis {
+    color: #4ADF86;
+}
+
+#firstPswd, #secondPswd {
+    background: #273549;
+    /* border: 1px dotted forestgreen; */
+    border-radius: 6px;
+    width: 210px;
+    height: 40px;
+    padding: 4px 15px;
+    color: #55F991;
+    font-size: 1.25rem;
+    align-content: center;
+}
